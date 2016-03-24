@@ -18,10 +18,25 @@ puts
 
 
 def say(words)
-  puts words
+  puts words + '.'
 end
 
 say("hello")
+say("hi")
+say("how are you")
+say("I'm fine")
+puts
+
+puts
+puts  "### say.rb refactored again ###"
+puts
+
+
+def say(words='hello')
+  puts words + '.'
+end
+
+say()
 say("hi")
 say("how are you")
 say("I'm fine")
