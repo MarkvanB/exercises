@@ -1,0 +1,3 @@
+Another example of writing to a file.
+Another example of writing to a file. This time without overwriting stuff
+Here we go wit ha new line of text
